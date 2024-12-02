@@ -2,5 +2,6 @@
   "limit": 100,
   "countdown": 300,
   "country_time": "en-US",
-  "howManyPercentYouWantToStake": 10
+  "howManyPercentYouWantToStake": 100,
+  "delayEachAccount": [5, 8]
 }
