@@ -32,7 +32,6 @@ create_default_configs() {
 {
   "limit": 100,
   "countdown": 300,
-  "country_time": "en-US",
   "howManyPercentYouWantToStake": 100,
   "delayEachAccount": [5, 8]
 }
@@ -110,7 +109,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            cd bool && node meomundep
+            node meomundep
             read -p "Press Enter to continue..."
             ;;
         4)
